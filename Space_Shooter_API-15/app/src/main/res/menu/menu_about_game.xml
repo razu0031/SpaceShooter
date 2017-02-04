@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.razu.space_shooter.About_Game_Activity">
+
+    <item
+        android:id="@+id/instructions_in_About_GamePage_Menu_id"
+
+        android:title="@string/instructions_in_About_GamePage_in_Menu_string"
+        android:orderInCategory="1"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/play_in_About_GamePage_in_Menu_id"
+
+        android:title="@string/play_in_About_GamePage_in_Menu_string"
+        android:orderInCategory="2"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/settings_in_About_GamePage_in_Menu_id"
+
+        android:title="@string/settings_in_About_GamePage_in_string"
+        android:orderInCategory="3"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/scores_in_About_GamePage_in_Menu_id"
+
+        android:title="@string/scores_in_About_GamePage_Menu_string"
+        android:orderInCategory="4"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/startpage_in_About_GamePage_in_Menu_id"
+
+        android:title="@string/startpage_in_About_GamePage_Menu_string"
+        android:orderInCategory="5"
+        android:showAsAction="never" />
+
+
+
+
+</menu>

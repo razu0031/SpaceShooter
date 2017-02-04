@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b338dd65"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffc60e13"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Score : "
+            android:textSize="19sp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#b0b0ff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/topScoreId"
+            android:textSize="18sp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="25dp"
+            android:textColor="#b0b0ff"/>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#fd2781c1"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Player : "
+            android:textSize="18sp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#b0b0ff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastPlayerScoreId"
+            android:textSize="17sp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="25dp"
+            android:textColor="#b0b0ff"/>
+
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+      <!--  <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff2db358"
+            /> -->
+
+          <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="#db30c15c"
+              android:padding="3dp"
+              android:paddingLeft="3dp"
+              android:paddingTop="3dp"
+              android:paddingRight="3dp"
+              android:paddingBottom="3dp"
+              >
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/playerSerialNoId"
+                  android:textColor="#fe020102"
+                  android:textSize="17dp"
+                  android:layout_gravity="left|center_vertical"
+                  />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/playerNameId"
+                  android:textColor="#f5780102"
+                  android:textSize="17dp"
+                  android:layout_gravity="center|center_vertical"
+                  />
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/playerScoreId"
+                  android:textColor="#cb0000ff"
+                  android:textSize="17dp"
+                  android:layout_gravity="right|center_vertical"
+                  android:layout_marginRight="2dp"/>
+
+          </FrameLayout>
+
+
+      </ScrollView>
+
+
+  </LinearLayout>

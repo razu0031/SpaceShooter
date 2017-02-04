@@ -1,0 +1,1256 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.razu.space_shooter_api_15.PlayActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/bg1_level1"
+        android:scaleType="fitXY"
+        />
+
+    <!-- Background -->
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/bg1_level1"
+        android:scaleType="fitXY"
+        android:id="@+id/backGround2InPlayPageId"
+        />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/bg2_level1"
+        android:scaleType="fitXY"
+        android:id="@+id/backGround1InPlayPageId"
+        />
+
+    <!-- My Bullet -->
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet1Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet2Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet3Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet4Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet5Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet6Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet7Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet8Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet9Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet10Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet11Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet12Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet13Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet14Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet15Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet16Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet17Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet18Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet19Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet20Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet21Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet22Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:id="@+id/myBullet23Id"
+        android:src="@drawable/mybullet1"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:visibility="invisible"
+        />
+
+
+    <!--  Enemy Ship -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyShip1Id"
+        android:src="@drawable/ess1"
+        android:visibility="invisible"
+        android:layout_x="1dp"
+        android:layout_y="6dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyShip2Id"
+        android:src="@drawable/ess2"
+        android:visibility="invisible"
+        android:layout_x="234dp"
+        android:layout_y="7dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyShip3Id"
+        android:src="@drawable/ess3"
+        android:visibility="invisible"
+        android:layout_x="164dp"
+        android:layout_y="69dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyShip4Id"
+        android:src="@drawable/ess4"
+        android:visibility="invisible"
+        android:layout_x="150dp"
+        android:layout_y="13dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyShip5Id"
+        android:src="@drawable/ess5"
+        android:visibility="invisible"
+        android:layout_x="79dp"
+        android:layout_y="67dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyShip6Id"
+        android:src="@drawable/ess6"
+        android:visibility="invisible"
+        android:layout_x="5dp"
+        android:layout_y="69dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyShip7Id"
+        android:src="@drawable/ess7"
+        android:visibility="invisible"
+        android:layout_x="75dp"
+        android:layout_y="11dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyShip8Id"
+        android:src="@drawable/ess8"
+        android:visibility="invisible"
+        android:layout_x="250dp"
+        android:layout_y="64dp" />
+
+    <!-- Enemy Bullet  -->
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet1ForEShip1Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet2ForEShip1Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet1ForEShip2Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet2ForEShip2Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet1ForEShip3Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet2ForEShip3Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet1ForEShip4Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet2ForEShip4Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet1ForEShip5Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet2ForEShip5Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet1ForEShip6Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet2ForEShip6Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet1ForEShip7Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet2ForEShip7Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet1ForEShip8Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:id="@+id/eBullet2ForEShip8Id"
+        android:src="@drawable/ebullet1"
+        android:visibility="invisible"
+        android:layout_x="330dp"
+        android:layout_y="199dp" />
+
+
+
+    <!-- Enemy Boss Bullet -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyBossBullet1Id"
+        android:src="@drawable/ebossbullet2"
+        android:layout_x="105dp"
+        android:layout_y="50dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyBossBullet2Id"
+        android:src="@drawable/ebossbullet2"
+        android:layout_x="105dp"
+        android:layout_y="50dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyBossBullet3Id"
+        android:src="@drawable/ebossbullet2"
+        android:layout_x="105dp"
+        android:layout_y="50dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyBossBullet4Id"
+        android:src="@drawable/ebossbullet2"
+        android:layout_x="105dp"
+        android:layout_y="50dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyBossBullet5Id"
+        android:src="@drawable/ebossbullet2"
+        android:layout_x="105dp"
+        android:layout_y="50dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyBossBullet6Id"
+        android:src="@drawable/ebossbullet2"
+        android:layout_x="105dp"
+        android:layout_y="50dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enemyBossBullet7Id"
+        android:src="@drawable/ebossbullet2"
+        android:layout_x="105dp"
+        android:layout_y="50dp"
+        android:visibility="invisible"
+        />
+
+    <!-- Enemy Boss Ship -->
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/enemyBossShipId"
+        android:src="@drawable/eboss1"
+        android:layout_x="105dp"
+        android:layout_y="50dp"
+        android:visibility="invisible"
+        />
+
+
+
+    <!-- My Ship -->
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:id="@+id/myShip1Id"
+        android:src="@drawable/ss1"
+        android:layout_x="25dp"
+        android:layout_y="472dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:id="@+id/myShip2Id"
+        android:src="@drawable/ss2"
+        android:layout_x="306dp"
+        android:layout_y="452dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:id="@+id/myShip3Id"
+        android:src="@drawable/ss3"
+        android:layout_x="114dp"
+        android:layout_y="458dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:id="@+id/myShip4Id"
+        android:src="@drawable/ss4"
+        android:layout_x="210dp"
+        android:layout_y="449dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:id="@+id/myShip5Id"
+        android:src="@drawable/ss5"
+        android:layout_x="210dp"
+        android:layout_y="449dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:id="@+id/myShip6Id"
+        android:src="@drawable/ss6"
+        android:layout_x="210dp"
+        android:layout_y="449dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:id="@+id/myShip7Id"
+        android:src="@drawable/ss7"
+        android:layout_x="210dp"
+        android:layout_y="449dp"
+        android:visibility="invisible"
+        />
+
+
+
+
+    <!-- Life Score and Play/Pause Button Bar  -->
+    <!--   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <FrameLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="top"
+               >
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_gravity="top|left"
+                   android:background="@drawable/round_corner_normal_with_border">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="#20000000"
+                       android:layout_gravity="left"
+                       android:text="Y.Life : "
+                       android:textColor="#c3f8ff"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/myLifeId"
+                       android:text="@string/myLifeString"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_gravity="top|right"
+                   android:background="@drawable/round_corner_normal_with_border">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/myScoreId"
+                       android:text="@string/myScoreString"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="#20000000"
+                       android:layout_gravity="right"
+                       android:text=" : Scores"
+                       android:textColor="#c3f8ff"
+                       />
+
+               </LinearLayout>
+
+               <Button
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_horizontal"
+                   android:text="PLAY"
+                   android:textSize="13dp"
+                   android:id="@+id/playPauseButton"
+                   android:onClick="test"
+                   android:textColor="#ebc60e13"
+                   android:clickable="true"
+                   android:textStyle="bold"
+                   android:visibility="invisible"
+                   android:background="@drawable/button_background_layout"/>
+
+           </FrameLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_gravity="center|left"
+               android:background="@drawable/round_corner_normal_with_border">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="#20000000"
+                   android:text="E.Life : "
+                   android:textColor="#c3f8ff"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/enemyBossLifeId"
+                   android:text="@string/myLifeString"/>
+
+           </LinearLayout>
+
+       </LinearLayout> -->
+
+    <!-- Life Score and Play/Pause Button Bar  -->
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="top|left">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:background="@drawable/round_corner_normal_without_border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#20000000"
+                    android:text="Y.Life : "
+                    android:textColor="#c3f8ff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/myLifeId"
+                    android:text="@string/myLifeString"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/enemyBossLifeLinearLayout"
+                android:layout_marginTop="1.5dp"
+                android:padding="2dp"
+                android:background="@drawable/round_corner_normal_without_border"
+                android:visibility="invisible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#20000000"
+                    android:text="E.Life : "
+                    android:textColor="#c3f8ff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/enemyBossLifeId"
+                    android:text="@string/myLifeString"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="top|right">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:background="@drawable/round_corner_normal_without_border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/myScoreId"
+                    android:text="@string/myScoreString"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#20000000"
+                    android:text=" : Scores"
+                    android:textColor="#c3f8ff"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="top|center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="PLAY"
+                android:textSize="13dp"
+                android:id="@+id/playPauseButton"
+                android:onClick="test"
+                android:textColor="#ebc60e13"
+                android:clickable="true"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:background="@drawable/button_background_layout"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <!-- Reminder  -->
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/reminderId"
+        android:visibility="visible"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/round_corner_normal_without_border"
+            android:layout_gravity="center"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/round_corner_normal_without_border"
+                android:padding="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#20000000"
+                    android:layout_gravity="center"
+                    android:text="ENEMY LEFT"
+                    android:textColor="#c3f8ff"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/enemyLeftTextViewId"
+                    android:background="#20000000"
+                    android:layout_gravity="center"
+                    android:text="time"
+                    android:textColor="#c3f8ff"
+                    android:textSize="15dp"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/round_corner_normal_without_border"
+                android:layout_marginLeft="15dp"
+                android:padding="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#20000000"
+                    android:layout_gravity="center"
+                    android:text="TIME LEFT"
+                    android:textColor="#c3f8ff"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/timeLeftTextViewId"
+                    android:background="#20000000"
+                    android:layout_gravity="center"
+                    android:text="time"
+                    android:textColor="#c3f8ff"
+                    android:textSize="15dp"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+    <!-- Game Over Page  -->
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/gameOverPageId"
+        android:visibility="invisible"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/game_over"
+            android:scaleType="fitXY"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="70dp">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#30000000">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Your Scores : "
+                    android:textSize="23dp"
+                    android:layout_marginLeft="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/myScoreAtGcameOverId"
+                    android:layout_gravity="right"
+                    android:text="my Scores"
+                    android:textSize="23dp"
+                    android:layout_marginRight="15dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="15dp"
+                android:background="#40000000">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:text="Enter Your Name"
+                    android:textSize="23dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="35dp"
+                    android:layout_gravity="center"
+                    android:weightSum="25"
+                    android:layout_marginBottom="25dp">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/myNameId"
+                        android:textSize="23dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="24"
+                        android:hint="Enter Your Name"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OK"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:onClick="enterYourNameOKButtonClickAction"
+                        android:background="@drawable/button_background_layout"/>
+
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#40000000">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DON'T SAVE SCORE"
+                    android:onClick="doNotSaveScoreClickAction"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:textSize="17sp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:background="@drawable/button_background_layout"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+    <!-- Level Complete page Over Page  -->
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/levelCompletedPageId"
+        android:visibility="invisible"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/game_over"
+            android:scaleType="fitXY"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="70dp">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#30000000">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Your Scores : "
+                    android:textSize="23dp"
+                    android:layout_marginLeft="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/myScoreAtLevelCompletedId"
+                    android:layout_gravity="right"
+                    android:text="my Scores"
+                    android:textSize="23dp"
+                    android:layout_marginRight="15dp"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#30000000"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NEXT LEVEL"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="nextLevelButtonClickAction"
+                    android:background="@drawable/button_background_layout"/>
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LEAVE"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:onClick="leaveButtonClickAction"
+                    android:background="@drawable/button_background_layout"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/saveScoreAtLevelCompleted"
+                android:visibility="invisible">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="15dp"
+                    android:background="#40000000">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:text="Enter Your Name"
+                        android:textSize="23dp"/>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="35dp"
+                        android:layout_gravity="center"
+                        android:weightSum="25"
+                        android:layout_marginBottom="25dp">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/myNameAtLevelCompletedId"
+                            android:textSize="23dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="24"
+                            android:hint="Enter Your Name"/>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="OK"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="enterYourNameOKButtonClickAction"
+                            android:background="@drawable/button_background_layout"/>
+
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#40000000">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DON'T SAVE SCORE"
+                        android:onClick="doNotSaveScoreClickAction"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="17sp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:background="@drawable/button_background_layout"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+    <!-- Back Button Press Page -->
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/backButtonPressPageWhileGamingId"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="@drawable/round_corner_for_back_button_press_page"
+            android:padding="29dp">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonLeaveGameClickAction"
+                android:text="LEAVE GAME"
+                android:textSize="15sp"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:background="@drawable/button_background_layout"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonResumeGameClickAction"
+                android:text="RESUME"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background_layout"/>
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <!-- Start Page Touch Text view -->
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/touchToStartGamePageId">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Touch Screen to Start"
+            android:textColor="#dbc60c13"
+            android:background="@drawable/round_corner_normal_with_border"/>
+
+
+    </FrameLayout>
+
+
+
+
+
+</AbsoluteLayout>

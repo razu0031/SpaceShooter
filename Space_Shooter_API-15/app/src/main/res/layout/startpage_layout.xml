@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/startPageId">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg2"
+            />
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/panelBackgroundId"
+            android:layout_gravity="center"
+            >
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="About Game"
+                android:onClick="Button_About_Game_clickAction"
+                android:id="@+id/buttonAboutGameId"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:textColor="#cb0000ff"
+                android:textStyle="bold"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:background="@drawable/button_background_layout"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Play"
+                android:onClick="ButtonPlayClickAction"
+                android:id="@+id/buttonPlayId"
+                android:textSize="22sp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:textColor="#c3f8ff"
+                android:textStyle="bold"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:background="@drawable/button_background_layout"/>
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Scores"
+                android:onClick="ButtonScoresClickAction"
+                android:id="@+id/buttonScoresId"
+                android:textSize="22sp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:textColor="#c3f8ff"
+                android:textStyle="bold"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:background="@drawable/button_background_layout"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Instructions"
+                android:onClick="ButtonInstructionsClickAction"
+                android:id="@+id/buttonInstructionsId"
+                android:textSize="22sp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:textColor="#c3f8ff"
+                android:textStyle="bold"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:background="@drawable/button_background_layout"/>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ButtonExitClickAction"
+                android:id="@+id/buttonExitId"
+                android:src="@drawable/exit"
+                android:layout_gravity="left|bottom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="3dp"
+                android:paddingRight="1dp"
+                android:paddingLeft="1dp"
+                android:background="@drawable/button_background_layout"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ButtonSettingsClickAction"
+                android:id="@+id/buttonSettingId"
+                android:src="@drawable/setting"
+                android:layout_gravity="right|bottom"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="3dp"
+                android:paddingRight="1dp"
+                android:paddingLeft="1dp"
+                android:background="@drawable/button_background_layout"
+                />
+
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/exitPageId"
+        android:visibility="invisible"
+        >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/round_corner_layout_for_exit_page">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:text="ARE YOU SURE TO QUIT ?"
+                android:textSize="21dp"
+                android:textColor="#db14ae3f"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="23dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_horizontal"
+                android:text="YES"
+                android:onClick="buttonYesExitClickAction"
+                android:layout_marginTop="79dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="21dp"
+                android:background="@drawable/button_background_layout"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_horizontal"
+                android:text="NO"
+                android:onClick="buttonNoExitClickAction"
+                android:layout_marginTop="79dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="21dp"
+                android:background="@drawable/button_background_layout"/>
+
+
+
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+
+
+
+</AbsoluteLayout>

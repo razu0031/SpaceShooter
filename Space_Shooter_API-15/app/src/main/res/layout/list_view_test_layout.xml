@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffc60e13"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Score : "
+            android:textSize="19sp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#b0b0ff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/topScoreId"
+            android:textSize="18sp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="25dp"
+            android:textColor="#b0b0ff"/>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#fd2781c1"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Player : "
+            android:textSize="18sp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#b0b0ff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastPlayerScoreId"
+            android:textSize="17sp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="25dp"
+            android:textColor="#b0b0ff"/>
+
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/listViewId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+
+
+
+
+        />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#f84d5e61"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you sure to exit ?"
+            android:textSize="25dp"
+            android:textColor="#fc0beff5"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/exit_yes"
+                android:onClick="Button_Exit_Yes_clickAction"
+                android:text="Yes"
+                android:textSize="21dp"
+                android:textColor="#e4df0f0d"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/exit_no"
+                android:onClick="Button_Exit_No_clickAction"
+                android:text="No"
+                android:textSize="21dp"
+                android:textColor="#fc0beff5"
+                android:layout_marginLeft="30dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
+
+
+
+

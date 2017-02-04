@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff000000"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayoutMainId">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/myShipBackgroundId"
+            android:background="#00c385"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:background="#c00000ff"
+                android:id="@+id/barSelectYourShipFrameLayoutId"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/choose_your_ship_text"
+                    android:text=" SELECT YOUR SHIP "
+                    android:textSize="30dp"
+                    android:textColor="#b0b0ff"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/spaceShip1Id"
+                    android:src="@drawable/ss1"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="7dp"
+                    />
+
+
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/next"
+                    android:layout_gravity="center|right"
+                    android:background="#00000000"
+                    android:layout_marginRight="-11dp"
+                    android:onClick="NextButtonSpaceShipChooserAction"
+                    android:id="@+id/idNextButtonSpaceShipChooser"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/previous"
+                    android:layout_gravity="center|left"
+                    android:background="#00000000"
+                    android:layout_marginLeft="-11dp"
+                    android:onClick="PreviousButtonSpaceShipChooserAction"
+                    android:id="@+id/idPreviousButtonSpaceShipChooser"
+                    />
+
+            </FrameLayout>
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:background="#c00000ff"
+                android:id="@+id/barImageButtonFrameLayoutId"
+                >
+
+           <!--     <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idPreviousButtonSpaceShipChooser"
+
+                    android:src="@drawable/previous1"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="1dp"
+                    android:paddingLeft="1dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/button_background_layout"
+                    android:visibility="invisible"
+                    />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idNextButtonSpaceShipChooser"
+
+                    android:src="@drawable/next1"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="1dp"
+                    android:paddingLeft="1dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/button_background_layout"
+                    android:visibility="invisible"
+                    />  -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" SELECT YOUR SHIP "
+                    android:textSize="30dp"
+                    android:textColor="#b0b0ff"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="invisible"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="39dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Sound"
+                        android:textSize="20sp"
+                        android:textColor="#eb7a6c74"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+
+
+                        />
+
+                    <Switch
+                        android:layout_width="86dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/switchSoundOnOrOffId"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="15dp"
+
+                        />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Background Music"
+                        android:textSize="20sp"
+                        android:textColor="#eb7a6c74"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+
+
+                        />
+
+                    <Switch
+                        android:layout_width="86dp"
+                        android:layout_height="16dp"
+                        android:id="@+id/switchBackMusicOnOrOffId"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="15dp"
+                        />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="110dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gaming Sound"
+                        android:textSize="20sp"
+                        android:textColor="#eb7a6c74"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+
+
+                        />
+
+                    <Switch
+                        android:layout_width="86dp"
+                        android:layout_height="16dp"
+                        android:id="@+id/switchGamingSoundOnOrOffId"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="15dp"
+                        />
+
+                </FrameLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</AbsoluteLayout>

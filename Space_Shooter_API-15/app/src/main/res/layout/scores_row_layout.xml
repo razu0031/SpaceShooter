@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- row.xml-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#00c385"
+    android:padding="5dp"
+    android:layout_marginBottom="5dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerSerialNoId"
+        android:textColor="#fe020102"
+        android:textSize="17dp"
+        android:layout_gravity="left|center_vertical"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerNameId"
+        android:textColor="#f1a70102"
+        android:textSize="17dp"
+        android:layout_gravity="center|center_vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerScoreId"
+        android:textColor="#cb0000ff"
+        android:textSize="17dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="2dp"/>
+
+</FrameLayout>
